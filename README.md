@@ -1,4 +1,4 @@
-``js
+```js
 const http = require("node:http");
 
 //console.log(http);
@@ -27,4 +27,4 @@ const server = http.createServer((req, res)=>{
 server.listen(3000, ()=>{
     console.log("listen to 3000");
 });
-``
+```
